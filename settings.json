@@ -1,0 +1,4 @@
+{
+  "autoMemoryEnabled": false,
+  "chat.agent.maxRequests": 50
+}

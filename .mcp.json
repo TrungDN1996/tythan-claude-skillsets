@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@0.20.3"
+      ],
+      "tools": [
+        "*"
+      ]
+    },
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:rbcc9987@localhost:5432/rbcc-postgres"
+      ]
+    },
+	"sqlserver": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/database-server",
+        "--sqlserver",
+        "--server", "localhost",
+         "--port", "1433",
+        "--database", "plmtest",
+        "--user", "mcpuser",
+        "--password", "@Tythan123",
+         "--trustServerCertificate", "true"
+      ]
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-75961c90-359b-4fe7-a21b-0546e1938c0c"
+      ],
+      "env": {}
+    }
+  }
+}
