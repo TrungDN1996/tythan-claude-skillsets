@@ -14,19 +14,6 @@ session would otherwise have to re-decide from scratch.
 Flat folder, one file per decision. `{topic}` is a short kebab-case slug
 (e.g. `2026-07-31-error-handling-strategy.md`).
 
-## Before deciding
-
-Only do this when the choice will outlive today's task — not for
-implementation details that are purely local to the current change.
-
-1. `grep -ri` (or otherwise search) `.claude/docs/decisions/` for the topic
-   or related keywords.
-2. If a prior decision exists: follow it. Do not silently override it.
-   - If new information genuinely invalidates the old reasoning, treat this
-     as a *replacement* (see "Superseding" below) rather than diverging
-     quietly.
-3. If nothing exists: proceed, and log the decision once made (below).
-
 ## Logging a decision
 
 Create `.claude/docs/decisions/YYYY-MM-DD-{topic}.md`:

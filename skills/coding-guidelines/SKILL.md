@@ -2,6 +2,7 @@
 name: coding-guidelines
 description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions.
 disable-model-invocation: false
+allowed-tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 # Coding Guidelines

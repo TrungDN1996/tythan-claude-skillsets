@@ -19,3 +19,7 @@
 - Minimize tool calls. Read files only when necessary.
 - Batch related changes. Don't read-modify-read-modify when read-modify-modify works.
 - Prefer grep_search over sequential read_file for discovery.
+
+# Knowledge Graph
+
+Before starting a new task, review existing rules and hypotheses for this domain in `.claude/docs/knowledge/learning/`. Apply rules by default. Check if any hypothesis can be tested with today's work.

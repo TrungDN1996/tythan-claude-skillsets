@@ -1,7 +1,8 @@
 ---
 name: engineering-memory
-description: Maintains a persistent, project-local memory of engineering knowledge (rules and hypotheses) and architectural decisions across sessions. Use when writing new code, refactoring existing code, designing an approach before implementing.
-disable-model-invocation: false
+description: Maintains a persistent, project-local memory of engineering knowledge (rules and hypotheses) and architectural decisions across sessions. Use when logging anything future sessions should know.
+disable-model-invocation: true
+allowed-tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 # Engineering Memory
@@ -12,7 +13,7 @@ figured out. Read the relevant reference file **before** acting, not after.
 
 | Situation | Reference | What it's for |
 |---|---|---|
-| Starting any coding/refactoring task | `references/knowledge_system.md` | Domain facts, patterns, confirmed rules |
+| What's been learned about today's task | `references/knowledge_system.md` | Domain facts, patterns, confirmed rules |
 | About to make a choice that outlives today's task | `references/decision_journal.md` | Precedent for architectural/design decisions |
 
 Load only the file(s) relevant to the current step — don't load both up front
@@ -20,16 +21,8 @@ if only one applies.
 
 ## Quick start
 
-**Before writing or refactoring code:**
-1. Open `references/knowledge_system.md`, follow its "Before a task" steps.
-2. If the task touches a decision with lasting impact (not just this task),
-   also open `references/decision_journal.md` and follow its "Before deciding" steps.
-
-**While working:** apply confirmed rules by default; treat hypotheses as
-things to keep an eye on, not things to assume.
-
-**After finishing the task:**
-1. Follow `references/knowledge_system.md`'s "After a task" steps to extract insights.
+**Logging memory:**
+1. Follow `references/knowledge_system.md`'s "Logging a knowledge system" steps to extract insights.
 2. If you made a lasting decision, follow `references/decision_journal.md`'s
    "Logging a decision" steps.
 

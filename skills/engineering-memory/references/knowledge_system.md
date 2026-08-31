@@ -21,18 +21,7 @@ first time a task clearly belongs to it and no existing folder fits.
 If `.claude/docs/knowledge/learning/` doesn't exist yet, create it along with
 `INDEX.md` (empty routing table) the first time this skill runs.
 
-## Before a task
-
-1. Read `INDEX.md`. Identify which domain folder(s) the current task touches.
-2. Read that domain's `rules.md` — apply these by default. Do not silently
-   deviate; if you think a rule no longer fits, say so and treat it as
-   contested rather than ignoring it.
-3. Skim `hypotheses.md`. If today's work happens to touch one of them, note
-   that it's a chance to gather evidence (confirm or contradict).
-4. Skim `knowledge.md` for relevant context, but treat it as informative,
-   not binding.
-
-## After a task
+## Logging a knowledge system
 
 Extract only what a *future* session in this domain would benefit from
 knowing — skip anything obvious, one-off, or already captured.
