@@ -18,9 +18,19 @@ $protectedPatterns = @(
     'yarn.lock',
     '.git/',
     'infrastructure/',
-    '.claude/settings.json',
     'docker-compose.prod',
-    'Makefile'
+    'Makefile',
+    ".mcp.json",
+    '.claude/settings.json',
+    "CLAUDE.local.md",
+    ".claude/settings.local.json",
+    "id_rsa",
+    "id_ed25519",
+    ".pem",
+    ".p12",
+    ".pfx",
+    "secrets/",
+    "credentials/"
 )
 
 foreach ($pattern in $protectedPatterns) {

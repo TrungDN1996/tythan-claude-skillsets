@@ -12,10 +12,18 @@
       "Bash(git log*)"
     ],
     "deny": [
+      "Read(.mcp.json)",
+      "Write(.mcp.json)",
+      "Edit(.mcp.json)",
       "Bash(git push*)",
       "Bash(npm install*)",
       "Bash(git reset --hard*)",
-      "Bash(git clean*)"
+      "Bash(git clean*)",
+      "Read(.env*)",
+      "Write(.env*)",
+      "Edit(.env*)",
+      "Bash(rm -rf:*)",
+      "Bash(env:*)"
     ]
   },
   "hooks": {
