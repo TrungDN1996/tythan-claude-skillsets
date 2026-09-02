@@ -2,7 +2,6 @@
 name: engineering-memory
 description: Maintains a persistent, project-local memory of engineering knowledge (rules and hypotheses) and architectural decisions across sessions. Use when logging anything future sessions should know.
 disable-model-invocation: true
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 # Engineering Memory

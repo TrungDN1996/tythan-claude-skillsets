@@ -3,7 +3,6 @@ name: reproduce-bug-report
 description: Reproduce a raw bug using browser automation and DevTools MCP, confirm it is real, save structured observations, and report the outcome.
 argument-hint: <ticket_number> [app_url]
 disable-model-invocation: true
-allowed-tools: Read, Write, Glob, mcp__devtools__*
 ---
 
 # Bug Reproduce Devtool MCP

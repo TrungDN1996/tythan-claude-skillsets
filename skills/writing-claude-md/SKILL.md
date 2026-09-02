@@ -3,7 +3,6 @@ name: writing-claude-md
 description: Create a new CLAUDE.md for a Claude Code project, or sync an existing one against the current repo state. Use when the user asks to create, write, or generate a CLAUDE.md (creation) — or to sync, update, check, or verify a CLAUDE.md's accuracy against the repo (sync). Not for general repo documentation unrelated to CLAUDE.md.
 argument-hint: <create or sync>
 disable-model-invocation: true
-allowed-tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 # Writing a Good CLAUDE.md
