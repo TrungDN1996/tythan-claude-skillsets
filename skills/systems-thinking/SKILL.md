@@ -1,11 +1,6 @@
 ---
 name: systems-thinking
-description: >-
-  Analyze complex problems through feedback loops, system dynamics, causal relationships,
-  and leverage points to understand WHY a system behaves the way it does. Use when the
-  user asks to map feedback loops, trace causal chains, identify why a problem keeps
-  recurring, find leverage points for change, analyze emergent behavior, or understand
-  a complex system before intervening.
+description: Analyze complex problems through feedback loops, system dynamics, causal relationships, and leverage points to understand WHY a system behaves the way it does. Use when the user asks to map feedback loops, trace causal chains, identify why a problem keeps recurring, find leverage points for change, analyze emergent behavior, or understand a complex system before intervening.
 disable-model-invocation: true
 ---
 
