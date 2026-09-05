@@ -6,6 +6,7 @@ description: >-
   user asks to map feedback loops, trace causal chains, identify why a problem keeps
   recurring, find leverage points for change, analyze emergent behavior, or understand
   a complex system before intervening.
+disable-model-invocation: true
 ---
 
 # Systems Thinking

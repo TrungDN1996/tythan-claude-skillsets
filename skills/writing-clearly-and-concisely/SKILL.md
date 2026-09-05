@@ -10,18 +10,6 @@ disable-model-invocation: true
 
 Write with clarity and force. This skill covers what to do (Strunk) and what not to do (AI patterns).
 
-## When to Use This Skill
-
-Use this skill whenever you write prose for humans:
-
-- Documentation, README files, technical explanations
-- Commit messages, pull request descriptions
-- Error messages, UI copy, help text, comments
-- Reports, summaries, or any explanation
-- Editing to improve clarity
-
-**If you're writing sentences for a human to read, use this skill.**
-
 ## Limited Context Strategy
 
 When context is tight:
