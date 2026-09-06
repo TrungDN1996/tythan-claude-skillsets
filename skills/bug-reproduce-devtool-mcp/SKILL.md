@@ -1,7 +1,7 @@
 ---
 name: bug-reproduce-devtool-mcp
 description: Reproduce a raw bug using browser automation and DevTools MCP, confirm it is real, save structured observations, and report the outcome.
-argument-hint: <ticket_number> [app_url]
+argument-hint: <ticket_number> <app_url>
 disable-model-invocation: true
 ---
 
@@ -16,7 +16,7 @@ disable-model-invocation: true
 ## Inputs
 
 - `TICKET_NUMBER` — required, first argument.
-- `APP_URL` — second argument if given.
+- `APP_URL` — required, second argument.
 - Missing `TICKET_NUMBER`, or `APP_URL` unresolved from both sources → stop, report exactly which is missing. No continuation.
 
 ## Gate — Tool Check
